@@ -1,20 +1,13 @@
-﻿@using MVCLab2.Models
-@model Employee
+﻿@model Employee
+@{
+    ViewBag.Title = "Index";
+}
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Add Employee</title>
-</head>
-<body>
     <form method="post">
-        Name : @Html.TextBoxFor(emp => emp.Name) @Html.ValidationMessageFor(emp => emp.Name)
-        Email : @Html.TextBoxFor(emp => emp.Email) @Html.ValidationMessageFor(emp => emp.Email)
-        Salary : @Html.TextBoxFor(emp => emp.Salary) @Html.ValidationMessageFor(emp => emp.Salary)
-        Address : @Html.TextAreaFor(emp => emp.Address) @Html.ValidationMessageFor(emp => emp.Address)
+        Name : @Html.TextBoxFor(emp => emp.Name, new {@class="form-control" }) @Html.ValidationMessageFor(emp => emp.Name)
+        Email : @Html.TextBoxFor(emp => emp.Email, new { @class = "form-control" }) @Html.ValidationMessageFor(emp => emp.Email)
+        Salary : @Html.TextBoxFor(emp => emp.Salary, new { @class = "form-control" }) @Html.ValidationMessageFor(emp => emp.Salary)
+        Address : @Html.TextAreaFor(emp => emp.Address, new { @class = "form-control" }) @Html.ValidationMessageFor(emp => emp.Address)
         <input type="submit" value="Add Employee" />
 
     </form>
-</body>
-</html>

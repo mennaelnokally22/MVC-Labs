@@ -1,0 +1,16 @@
+﻿@model Employee
+@{
+    ViewBag.Title = "Add Employee";
+}
+
+        <form method="post">
+            Name : @Html.TextBoxFor(emp => emp.Name, new { @class = "form-control" }) 
+                @Html.ValidationMessageFor(emp => emp.Name,null, new { @class="text-danger"})
+            Email : @Html.TextBoxFor(emp => emp.Email, new { @class = "form-control" }) 
+                @Html.ValidationMessageFor(emp => emp.Email, null, new { @class = "text-danger" })
+            Salary : @Html.TextBoxFor(emp => emp.Salary, new { @class = "form-control" }) 
+                @Html.ValidationMessageFor(emp => emp.Salary, null, new { @class = "text-danger" })
+            Address : @Html.TextAreaFor(emp => emp.Address, new { @class = "form-control" }) 
+                @Html.ValidationMessageFor(emp => emp.Address, null, new { @class = "text-danger" })
+            <input type="submit" value="Add Employee" class="btn btn-primary"/>
+        </form>

@@ -1,3 +1,5 @@
+F:\ITI\MVC\MVCLab2\MVCLab2\obj\Debug\MVCLab2.Migrations.initial.resources
+F:\ITI\MVC\MVCLab2\MVCLab2\obj\Debug\MVCLab2.csproj.GenerateResource.Cache
 F:\ITI\MVC\MVCLab2\MVCLab2\bin\ApplicationInsights.config
 F:\ITI\MVC\MVCLab2\MVCLab2\bin\roslyn\csc.exe
 F:\ITI\MVC\MVCLab2\MVCLab2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -47,5 +49,4 @@ F:\ITI\MVC\MVCLab2\MVCLab2\bin\System.Web.Helpers.xml
 F:\ITI\MVC\MVCLab2\MVCLab2\bin\System.Web.Mvc.xml
 F:\ITI\MVC\MVCLab2\MVCLab2\obj\Debug\MVCLab2.dll
 F:\ITI\MVC\MVCLab2\MVCLab2\obj\Debug\MVCLab2.pdb
-F:\ITI\MVC\MVCLab2\MVCLab2\obj\Debug\MVCLab2.Migrations.initial.resources
-F:\ITI\MVC\MVCLab2\MVCLab2\obj\Debug\MVCLab2.csproj.GenerateResource.Cache
+F:\ITI\MVC\MVCLab2\MVCLab2\obj\Debug\MVCLab2.csprojResolveAssemblyReference.cache

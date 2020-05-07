@@ -15,9 +15,11 @@ namespace MVCLab2.Models
         [Required]
         [MaxLength(20)]
         public string Name { get; set; }
+        [Range(3000,100000)]
         public int Salary { get; set; }
         [Required]
         [MaxLength(50)]
+        [EmailAddress]
         public string Email { get; set; }
         [MaxLength(200)]
         public string Address { get; set; }

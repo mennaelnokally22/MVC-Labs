@@ -27,5 +27,10 @@ namespace MVCLab2.Controllers
             }
             return View();
         }
+        public ViewResult About()
+        {
+            return View("About");
+        }
+
     }
 }
